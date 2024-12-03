@@ -1,1 +1,9 @@
-Difficult problem in this fileHere is the starting point
+Difficult problem in this file
+Here is the starting point
+
+Second attempt
+Step A 
+Step B 
+Step C 
+
+Potential solution with first-try method combination
