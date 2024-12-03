@@ -1,2 +1,2 @@
 # git-upskilling
-Place to evidence git upskilling for work reasons
+Following PluralSight intermediate level Git courses and demos
