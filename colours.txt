@@ -11,3 +11,4 @@ brown
 grey
 silver
 bronze
+chocolate
