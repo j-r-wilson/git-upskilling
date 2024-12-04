@@ -1,6 +1,7 @@
 alias.st=status --short --branch
 alias.cma=commit --all --message
 alias.cm=commit --message
-alias.dm='!f() { git branch --merged | grep -v ^\* | xargs git branch -d; }; f'
+alias.dm=!f() { git branch --merged | grep -v ^\* | xargs git branch -d; }; f
+alias.ll=log --pretty='%C(bold yellow)%h%Creset |%C(bold magenta)%d%Creset %s %C(dim white)(%cr by %an)%Creset' --graph
 
-will test dm after pushing this change
+will add as more are in use 
