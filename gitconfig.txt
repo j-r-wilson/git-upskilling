@@ -26,3 +26,27 @@ git config --list shows current active config (| sort can sort, --show-origin fo
 commands to run:
 git config --local user.name "j-r-wilson"
 git config --local user.email "dummy.mail@mail.com"
+
+.gitignore can have negative patterns, .gitattributes cannot
+.gitignore can match directory contents with "/", .gitattributes must match with glob
+
+attributes are for helping git make assumptions about how to treat files
+
+can be useful in root of directory for everyone to share
+
+.git/info/attributes > .gitattributes > ~/.gitconfig priority order
+
+useful for checkin and checkout changes (filter) depending on where working os or platform is (e.g. carrige returns)
+filters require definition in attributes and specification in config
+clean is checkout, smudge is checkin
+
+process filters exist also for computational resource and async delivery also
+
+aliases allow reduction of command length by aliasing them
+on fedora so would be defined in .bash file for shell aliases
+for git aliases, stored in config
+
+can be used for workflow config
+can use shell functions and immediate invocation for combined commands e.g:
+[alias]
+    quick-commit = "!f(){ git add . && git commit --verbose; };f"
