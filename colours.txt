@@ -1,15 +1,11 @@
 maroon
-brown
+white
 gold
 moss
-seafoam blue
-deep indigo
 violet
-orange
-two
-three
-silver
-bronze
+black
+brown
+grey
 chocolate
 charcoal
 navy
