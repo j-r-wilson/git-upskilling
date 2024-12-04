@@ -7,3 +7,4 @@ indigo
 violet
 black
 brown
+gray
