@@ -1,6 +1,5 @@
 maroon
 brown
-
 gold
 moss
 seafoam blue
@@ -9,7 +8,6 @@ violet
 orange
 two
 three
-
 silver
 bronze
 chocolate
