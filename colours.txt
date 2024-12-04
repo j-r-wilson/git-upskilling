@@ -1,10 +1,10 @@
 maroon
-orange
-yellow
+burnt orange
+marigold yellow
 gold
 moss
-blue
-indigo
+seafoam blue
+deep indigo
 violet
 black
 brown
@@ -12,3 +12,7 @@ grey
 silver
 bronze
 chocolate
+charcoal
+navy
+goldenrod
+avocado
