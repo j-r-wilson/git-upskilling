@@ -1,10 +1,13 @@
 maroon
 orange
 yellow
+gold
 moss
 blue
 indigo
 violet
 black
 brown
-gray
+grey
+silver
+bronze
