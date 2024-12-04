@@ -1,6 +1,6 @@
 alias.st=status --short --branch
 alias.cma=commit --all --message
 alias.cm=commit --message
-alias.dm=!f() {git branch --merged | grep -v ^\* | xargs git branch branch -d; }; f
+alias.dm='!f() {git branch --merged | grep -v ^\* | xargs git branch branch -d; }; f'
 
 will test dm after pushing this change
