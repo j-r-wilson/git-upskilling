@@ -1,0 +1,28 @@
+git config --global user.name "j-r-wilson"
+git config --global user.name // j-r-wilson (prints stored value if no arg provided)
+
+--global is user scope
+--system is system scope
+--local is repo scope
+
+local > global > system priority order
+
+all stored in local config file
+
+config file broken into sections
+comments with #
+whitespace okay
+
+not similar to .toml (no multiline string/advanced features) or .ini (deprecated structure)
+
+common sections:
+- author (individual details)
+- core (common options and behaviours)
+- push (git push behaviour)
+- all commands and operations
+
+git config --list shows current active config (| sort can sort, --show-origin for source, --show-scope for scope)
+
+commands to run:
+git config --local user.name "j-r-wilson"
+git config --local user.email "dummy.mail@mail.com"
