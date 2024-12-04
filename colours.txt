@@ -1,7 +1,7 @@
-red
+maroon
 orange
 yellow
-green
+moss
 blue
 indigo
 violet
